@@ -21,8 +21,8 @@ function Directors() {
         <h1>Directors Page</h1>
         {directors ? (
           <>
-          {directors.map((director, index) => (
-            <article key={index}>
+          {directors.map((director) => (
+            <article key={director.id}>
               <h2>{director.name}</h2>
               <ul>
                 {director.movies.map((movie, index) => (
