@@ -11,7 +11,6 @@ function Actors() {
       .catch(error => console.error(error))
   }, []);
 
-
   return (
     <>
       <header>
@@ -19,6 +18,7 @@ function Actors() {
       </header>
       <main>
         <h1>Actors Page</h1>
+        {/*conditionally render actors*/}
         {actors ? (
           <>
           {actors.map((actor) => (

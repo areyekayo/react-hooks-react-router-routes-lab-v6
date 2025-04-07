@@ -11,7 +11,6 @@ function Directors() {
       .catch(error => console.error(error))
   }, []);
 
-
   return (
     <>
       <header>
